@@ -774,7 +774,7 @@ export const ASK_USER_DEFINITION: ToolDefinition = {
           maxItems: 4,
           items: {
             type: 'object',
-            required: ['question', 'header'],
+            required: ['question', 'header', 'type'],
             properties: {
               question: {
                 type: 'string',
